@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE450A101775C69700253C97 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE450A0F1775C69700253C97 /* SystemConfiguration.framework */; };
+		BE450A141775CD4900253C97 /* ReachabilityNew.m in Sources */ = {isa = PBXBuildFile; fileRef = BE450A131775CD4900253C97 /* ReachabilityNew.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BEDDD04B1775C39E00A6508E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDDD04A1775C39E00A6508E /* CFNetwork.framework */; };
+		BEEB06A41775795800A10710 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEB06A31775795800A10710 /* UIKit.framework */; };
+		BEEB06A61775795800A10710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEB06A51775795800A10710 /* Foundation.framework */; };
+		BEEB06A81775795800A10710 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEB06A71775795800A10710 /* CoreGraphics.framework */; };
+		BEEB06AE1775795800A10710 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEEB06AC1775795800A10710 /* InfoPlist.strings */; };
+		BEEB06B01775795800A10710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEB06AF1775795800A10710 /* main.m */; };
+		BEEB06B41775795800A10710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEB06B31775795800A10710 /* AppDelegate.m */; };
+		BEEB06B61775795800A10710 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEB06B51775795800A10710 /* Default.png */; };
+		BEEB06B81775795800A10710 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEB06B71775795800A10710 /* Default@2x.png */; };
+		BEEB06BA1775795800A10710 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEB06B91775795800A10710 /* Default-568h@2x.png */; };
+		BEEB06BD1775795800A10710 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEB06BC1775795800A10710 /* ViewController.m */; };
+		BEEB06C01775795800A10710 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEEB06BE1775795800A10710 /* ViewController.xib */; };
+		BEEB06C81775844C00A10710 /* PhotoUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEB06C71775844C00A10710 /* PhotoUpload.m */; };
+		BEEB06CC1775AAB200A10710 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEB06CB1775AAB200A10710 /* LogViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE450A0F1775C69700253C97 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BE450A121775CD4900253C97 /* ReachabilityNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityNew.h; sourceTree = "<group>"; };
+		BE450A131775CD4900253C97 /* ReachabilityNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityNew.m; sourceTree = "<group>"; };
+		BEDDD04A1775C39E00A6508E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BEEB06A01775795800A10710 /* PhotoUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEB06A31775795800A10710 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BEEB06A51775795800A10710 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEEB06A71775795800A10710 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BEEB06AB1775795800A10710 /* PhotoUploader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoUploader-Info.plist"; sourceTree = "<group>"; };
+		BEEB06AD1775795800A10710 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEEB06AF1775795800A10710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEEB06B11775795800A10710 /* PhotoUploader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoUploader-Prefix.pch"; sourceTree = "<group>"; };
+		BEEB06B21775795800A10710 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEEB06B31775795800A10710 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEEB06B51775795800A10710 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BEEB06B71775795800A10710 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BEEB06B91775795800A10710 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BEEB06BB1775795800A10710 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEEB06BC1775795800A10710 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEEB06BF1775795800A10710 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BEEB06C61775844C00A10710 /* PhotoUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoUpload.h; path = PhotoUploader/PhotoUpload/PhotoUpload.h; sourceTree = "<group>"; };
+		BEEB06C71775844C00A10710 /* PhotoUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoUpload.m; path = PhotoUploader/PhotoUpload/PhotoUpload.m; sourceTree = "<group>"; };
+		BEEB06CA1775AAB200A10710 /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogViewController.h; path = "PhotoUploader/Log View/LogViewController.h"; sourceTree = "<group>"; };
+		BEEB06CB1775AAB200A10710 /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogViewController.m; path = "PhotoUploader/Log View/LogViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEEB069D1775795800A10710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE450A101775C69700253C97 /* SystemConfiguration.framework in Frameworks */,
+				BEDDD04B1775C39E00A6508E /* CFNetwork.framework in Frameworks */,
+				BEEB06A41775795800A10710 /* UIKit.framework in Frameworks */,
+				BEEB06A61775795800A10710 /* Foundation.framework in Frameworks */,
+				BEEB06A81775795800A10710 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE450A111775CD4900253C97 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				BE450A121775CD4900253C97 /* ReachabilityNew.h */,
+				BE450A131775CD4900253C97 /* ReachabilityNew.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		BEEB06971775795800A10710 = {
+			isa = PBXGroup;
+			children = (
+				BE450A111775CD4900253C97 /* Reachability */,
+				BEEB06CD1775AAB800A10710 /* Log View */,
+				BEEB06C91775845200A10710 /* PhotoUpload */,
+				BEEB06A91775795800A10710 /* PhotoUploader */,
+				BEEB06A21775795800A10710 /* Frameworks */,
+				BEEB06A11775795800A10710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEEB06A11775795800A10710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEEB06A01775795800A10710 /* PhotoUploader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEEB06A21775795800A10710 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE450A0F1775C69700253C97 /* SystemConfiguration.framework */,
+				BEDDD04A1775C39E00A6508E /* CFNetwork.framework */,
+				BEEB06A31775795800A10710 /* UIKit.framework */,
+				BEEB06A51775795800A10710 /* Foundation.framework */,
+				BEEB06A71775795800A10710 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEEB06A91775795800A10710 /* PhotoUploader */ = {
+			isa = PBXGroup;
+			children = (
+				BEEB06B21775795800A10710 /* AppDelegate.h */,
+				BEEB06B31775795800A10710 /* AppDelegate.m */,
+				BEEB06BB1775795800A10710 /* ViewController.h */,
+				BEEB06BC1775795800A10710 /* ViewController.m */,
+				BEEB06BE1775795800A10710 /* ViewController.xib */,
+				BEEB06AA1775795800A10710 /* Supporting Files */,
+			);
+			path = PhotoUploader;
+			sourceTree = "<group>";
+		};
+		BEEB06AA1775795800A10710 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEEB06AB1775795800A10710 /* PhotoUploader-Info.plist */,
+				BEEB06AC1775795800A10710 /* InfoPlist.strings */,
+				BEEB06AF1775795800A10710 /* main.m */,
+				BEEB06B11775795800A10710 /* PhotoUploader-Prefix.pch */,
+				BEEB06B51775795800A10710 /* Default.png */,
+				BEEB06B71775795800A10710 /* Default@2x.png */,
+				BEEB06B91775795800A10710 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEEB06C91775845200A10710 /* PhotoUpload */ = {
+			isa = PBXGroup;
+			children = (
+				BEEB06C61775844C00A10710 /* PhotoUpload.h */,
+				BEEB06C71775844C00A10710 /* PhotoUpload.m */,
+			);
+			name = PhotoUpload;
+			sourceTree = "<group>";
+		};
+		BEEB06CD1775AAB800A10710 /* Log View */ = {
+			isa = PBXGroup;
+			children = (
+				BEEB06CA1775AAB200A10710 /* LogViewController.h */,
+				BEEB06CB1775AAB200A10710 /* LogViewController.m */,
+			);
+			name = "Log View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEEB069F1775795800A10710 /* PhotoUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEB06C31775795800A10710 /* Build configuration list for PBXNativeTarget "PhotoUploader" */;
+			buildPhases = (
+				BEEB069C1775795800A10710 /* Sources */,
+				BEEB069D1775795800A10710 /* Frameworks */,
+				BEEB069E1775795800A10710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoUploader;
+			productName = PhotoUploader;
+			productReference = BEEB06A01775795800A10710 /* PhotoUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEEB06981775795800A10710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "rahul nagpal";
+			};
+			buildConfigurationList = BEEB069B1775795800A10710 /* Build configuration list for PBXProject "PhotoUploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEEB06971775795800A10710;
+			productRefGroup = BEEB06A11775795800A10710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEEB069F1775795800A10710 /* PhotoUploader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEEB069E1775795800A10710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEB06AE1775795800A10710 /* InfoPlist.strings in Resources */,
+				BEEB06B61775795800A10710 /* Default.png in Resources */,
+				BEEB06B81775795800A10710 /* Default@2x.png in Resources */,
+				BEEB06BA1775795800A10710 /* Default-568h@2x.png in Resources */,
+				BEEB06C01775795800A10710 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEEB069C1775795800A10710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEB06B01775795800A10710 /* main.m in Sources */,
+				BEEB06B41775795800A10710 /* AppDelegate.m in Sources */,
+				BEEB06BD1775795800A10710 /* ViewController.m in Sources */,
+				BEEB06C81775844C00A10710 /* PhotoUpload.m in Sources */,
+				BEEB06CC1775AAB200A10710 /* LogViewController.m in Sources */,
+				BE450A141775CD4900253C97 /* ReachabilityNew.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEEB06AC1775795800A10710 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEB06AD1775795800A10710 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEEB06BE1775795800A10710 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEB06BF1775795800A10710 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEEB06C11775795800A10710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEEB06C21775795800A10710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEEB06C41775795800A10710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoUploader/PhotoUploader-Prefix.pch";
+				INFOPLIST_FILE = "PhotoUploader/PhotoUploader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEEB06C51775795800A10710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoUploader/PhotoUploader-Prefix.pch";
+				INFOPLIST_FILE = "PhotoUploader/PhotoUploader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEEB069B1775795800A10710 /* Build configuration list for PBXProject "PhotoUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEB06C11775795800A10710 /* Debug */,
+				BEEB06C21775795800A10710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEEB06C31775795800A10710 /* Build configuration list for PBXNativeTarget "PhotoUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEB06C41775795800A10710 /* Debug */,
+				BEEB06C51775795800A10710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEEB06981775795800A10710 /* Project object */;
+}

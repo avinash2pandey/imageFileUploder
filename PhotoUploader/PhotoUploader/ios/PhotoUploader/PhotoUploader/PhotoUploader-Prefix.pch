@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'PhotoUploader' target in the 'PhotoUploader' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "ReachabilityNew.h"
+    #import "AppDelegate.h"
+
+
+
+#define documentDir [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+
+#define URL_STRING @"http://192.168.10.103:8888/photoUpload/ApiController.php"
+
+#endif

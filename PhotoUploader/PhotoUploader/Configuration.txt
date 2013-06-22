@@ -1,0 +1,10 @@
+
+Configuration
+
+set permission for photo,log folder in read and write
+
+For example, you can do the below in Linux:
+chmod -R 777 photoUpload/photo
+chmod -R 777 photoUpload/log
+
+
